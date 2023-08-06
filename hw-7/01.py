@@ -16,3 +16,12 @@ if is_rythm(str):
     print('Парам пам-пам')
 else:
     print('Пам парам')
+
+
+# text = input('пара-ра-рам рам-пам-папам па-ра-па-да').split()
+# f = lambda x: sum(1 for i in x if i in 'аеёиоуыэюя')        
+# t = f(text[0]) 
+# if all([f(i) == t for i in text]):
+#     print('Парам пам-пам')
+# else:
+#     print('Пам парам')
