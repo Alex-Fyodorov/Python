@@ -48,7 +48,7 @@ def start():
                     name = pb.delete_contact(contact_id)
                     view.print_message(text.contact_action(name, text.operation[2]))
             case 8:
-                if pb.original_book != pb.phone_book:
+                if pb.original_book.__eq__(pb.phone_book):
                     if view.input_request(text.confirm_changes).lower() == 'y':
                         pb.save_file()
                         view.print_message(text.save_successful)
